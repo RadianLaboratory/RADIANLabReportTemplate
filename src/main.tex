@@ -1,0 +1,72 @@
+%! Author = arshiya
+%! Date = 3/19/22
+
+% Preamble
+\documentclass[a4paper,11pt]{article}
+
+% Packages
+\usepackage[textwidth=7in,textheight=8.7in,headsep=2cm]{geometry}
+\usepackage{fontspec}
+\setmainfont{Arial}
+\usepackage{amsmath}
+\usepackage{tabularx}
+\usepackage[table]{xcolor}
+\usepackage{titlesec}
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\usepackage{bbding}
+\usepackage{lipsum}
+\usepackage{hyperref}
+\lhead{\includegraphics[]{Radian_logo}}
+\rhead{}
+\setlength\headheight{26pt}
+
+\titlelabel{\thetitle. }
+\newcommand*\tick{\item[\Checkmark]}
+\definecolor{babyblueeyes}{rgb}{0.63, 0.79, 0.95}
+\title{ \vspace{-2cm} Reliable and Durable IoT Applications \& Networks \vspace{-5ex}}
+\author{}
+\date{}
+
+% Document
+\begin{document}
+    \maketitle
+    \thispagestyle{fancy}
+    \begin{table*}[h!]
+        \centering
+        \begin{tabularx}{\linewidth}{|c|X|}
+            \hline
+            Author \cellcolor{babyblueeyes} & \\ \hline
+            Paper Title \cellcolor{babyblueeyes} & \\ \hline
+            Conference/Journal: \cellcolor{babyblueeyes} & \\ \hline
+            \multicolumn{2}{|l|}{Conference/Journal Rank: \quad Publication date:\quad Citations: \quad Reading date: \quad Reading length:}\\ \hline
+
+        \end{tabularx}
+    \end{table*}
+    
+    \section{Why }\label{sec:why}
+    \begin{itemize}
+        \tick why you chose this paper?
+    \end{itemize}
+    
+    \section{Terminologies}\label{sec:terminologies}
+    \lipsum[1]
+    \section{Challenges}\label{sec:challenges}
+    \lipsum[1]
+    \section{Prior Major Works}\label{sec:prior-major-works}
+    \lipsum[1]
+    \section{Assumptions}\label{sec:assumptions}
+    \lipsum[1]
+    \section{Evaluation}\label{sec:evaluation} 
+    \lipsum[1]
+
+    \section{Limitations}\label{sec:limitations}
+    \lipsum[1]
+    \subsection{Simulation Tools}
+
+    sample\cite{keshav2007read}
+    \bibliography{main}
+    \bibliographystyle{plain}
+
+\end{document}
