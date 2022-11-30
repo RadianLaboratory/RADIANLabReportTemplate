@@ -18,6 +18,7 @@
 \usepackage{bbding}
 \usepackage{lipsum}
 \usepackage{hyperref}
+\usepackage{import}
 \lhead{\includegraphics[]{Radian_logo}}
 \rhead{}
 \setlength\headheight{26pt}
@@ -44,28 +45,15 @@
 
         \end{tabularx}
     \end{table*}
-    
-    \section{Why }\label{sec:why}
-    \begin{itemize}
-        \tick why you chose this paper?
-    \end{itemize}
-    
-    \section{Terminologies}\label{sec:terminologies}
-    \lipsum[1]
-    \section{Challenges}\label{sec:challenges}
-    \lipsum[1]
-    \section{Prior Major Works}\label{sec:prior-major-works}
-    \lipsum[1]
-    \section{Assumptions}\label{sec:assumptions}
-    \lipsum[1]
-    \section{Evaluation}\label{sec:evaluation} 
-    \lipsum[1]
 
-    \section{Limitations}\label{sec:limitations}
-    \lipsum[1]
-    \subsection{Simulation Tools}
-
-    sample\cite{keshav2007read}
+    \import{}{sections-english/Why.tex}
+    \import{}{sections-english/Terminologies.tex}
+    \import{}{sections-english/Challenges.tex}
+    \import{}{sections-english/Prior Major Works.tex}
+    \import{}{sections-english/Assumptions.tex}
+    \import{}{sections-english/Evalution.tex}
+    \import{}{sections-english/Limitations.tex}
+    \import{}{sections-english/Simulation Tools.tex}
     \bibliography{main}
     \bibliographystyle{plain}
 
